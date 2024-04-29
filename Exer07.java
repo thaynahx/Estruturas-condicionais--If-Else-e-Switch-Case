@@ -6,29 +6,29 @@ public class Exer_7 {
 
 	public static void main(String[] args) {
 		Scanner ler =new Scanner(System.in);
-		System.out.println("*****Número maior*****");
+		System.out.println("*****NÃºmero maior*****");
 		
-		System.out.println("Entre com o primeiro número:");
+		System.out.println("Entre com o primeiro nÃºmero:");
 		int numero1 =ler.nextInt();
-		System.out.println("Entre com o segundo número:");
+		System.out.println("Entre com o segundo nÃºmero:");
 		int numero2 =ler.nextInt();
-		System.out.println("Entre com o terceiro número:");
+		System.out.println("Entre com o terceiro nÃºmero:");
 		int numero3 =ler.nextInt();
 		
 		if (numero1 > numero2 && numero1 > numero3) {
-			System.out.println("Número 1 é maior. ");
+			System.out.println("NÃºmero 1 Ã© maior. ");
 		}else if (numero2 > numero1 && numero2 > numero3){
-			System.out.println("Número 2 é maior.");
+			System.out.println("NÃºmero 2 Ã© maior.");
 		}else {
-			System.out.println("Número 3 é maior.");
+			System.out.println("NÃºmero 3 Ã© maior.");
 		}
 	
 		if (numero1 < numero2 && numero1 < numero3) {
-			System.out.println("Número 1 é menor. ");
+			System.out.println("NÃºmero 1 Ã© menor. ");
 		}else if (numero2 < numero1 && numero2 < numero3){
-			System.out.println("Número 2 é menor.");
+			System.out.println("NÃºmero 2 Ã© menor.");
 		}else {
-		System.out.println("Número 3 é menor.");
+		System.out.println("NÃºmero 3 Ã© menor.");
 		}
 }
 	
