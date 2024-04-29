@@ -6,7 +6,7 @@ public class Exer_9 {
 
 	public static void main(String[] args) {
 /*
-		// Possiveis combinações:
+		// Possiveis combinaÃ§Ãµes:
 		// x > y > z --------- x > z > y
 		// y > x > z --------- y > z > x
 		// z > x > y --------- z > y > x
@@ -46,11 +46,11 @@ public class Exer_9 {
 		Scanner ler =new Scanner (System.in);
 		System.out.println("****Programa que mostra numeros em ordem decrescentes****=");
 		
-		System.out.println("Entre com primeiro número: ");
+		System.out.println("Entre com primeiro nÃºmero: ");
 		int n1 =ler.nextInt();
-		System.out.println("Entre com segundo número: ");
+		System.out.println("Entre com segundo nÃºmero: ");
 		int n2 =ler.nextInt();
-		System.out.println("Entre com terceira número: ");
+		System.out.println("Entre com terceira nÃºmero: ");
 		int n3 =ler.nextInt();
 		
 		
