@@ -9,13 +9,13 @@ public class Exer_2 {
 		Scanner ler= new Scanner (System.in);
 		System.out.println("*****Negativo ou Positivo*****");
 		
-		System.out.println("Entre com um número:");
+		System.out.println("Entre com um nÃºmero:");
 		int num =ler.nextInt();
 		
 		if (num > 0) {
-			System.out.println("Número positivo.");
+			System.out.println("NÃºmero positivo.");
 		}else {
-			System.out.println("Número negativo.");
+			System.out.println("NÃºmero negativo.");
 		}
 	}
 
