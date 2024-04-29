@@ -9,11 +9,11 @@ public class Exer_8 {
 		Scanner ler =new Scanner(System.in);
 		System.out.println("*****Produto mais barato*****");
 		
-		System.out.println("Entre com o preço do produto 1: ");
+		System.out.println("Entre com o preÃ§o do produto 1: ");
 		double v1 =ler.nextDouble();
-		System.out.println("Entre com o preço do produto 2: ");
+		System.out.println("Entre com o preÃ§o do produto 2: ");
 		double v2 =ler.nextDouble();
-		System.out.println("Entre com o preço do produto 3: ");
+		System.out.println("Entre com o preÃ§o do produto 3: ");
 		double v3 =ler.nextDouble();
 		System.out.println("---------------");
 		if (v1 < v2 && v1 < v3) {
