@@ -8,7 +8,7 @@ public class Exer_4 {
 		Scanner ler = new Scanner(System.in);
 		System.out.println("*****Programa que verifica vogal/consoante*****");
 	
-		//Adaptado com a estrutura de repetição
+		//Adaptado com a estrutura de repetiÃ§Ã£o
 		// for (int i = 0; i < 25; i++) {
 		System.out.println("Entre com uma letra:");
 		String letra = ler.next();
