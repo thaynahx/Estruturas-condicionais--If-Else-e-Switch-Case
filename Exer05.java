@@ -9,16 +9,16 @@ public class Exer_5 {
 		Scanner ler =new Scanner (System.in);
 		System.out.println("***Programa de Leitura de notas parciais!***");
 		
-		System.out.println("Entre com a 1ª nota:");
+		System.out.println("Entre com a 1Âª nota:");
 		double n1 = ler.nextDouble();
-		System.out.println("Entre com a 1ª nota:");
+		System.out.println("Entre com a 1Âª nota:");
 		double n2 = ler.nextDouble();
 		
 		double soma = (n1 + n2);
 		double media = soma / 2;
 		
 		if (media == 10) {
-			System.out.println("Aprovado com distinção!");
+			System.out.println("Aprovado com distinÃ§Ã£o!");
 		}else if(media >= 7) {
 			System.out.println("Aprovado!");
 		}else {
@@ -26,7 +26,7 @@ public class Exer_5 {
 		}
 		
 		System.out.println("Soma das notas: " + soma);
-		System.out.println("Média da nota: " + media);
+		System.out.println("MÃ©dia da nota: " + media);
 	}
 
 }
