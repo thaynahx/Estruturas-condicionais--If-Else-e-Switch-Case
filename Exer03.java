@@ -26,7 +26,7 @@ public class Exer_3 {
 //	case "M":
 //	case "m":System.out.println("M -  masculino");
 //		break;
-//	default: System.out.println("Valor inv·lido!");
+//	default: System.out.println("Valor inv√°lido!");
 //		break;
 //	}
 	
