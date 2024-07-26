@@ -1,3 +1,10 @@
+/* FaÃ§a um Programa que leia 2 nÃºmeros e em seguida pergunte ao
+usuÃ¡rio qual operaÃ§Ã£o ele deseja realizar. O resultado da operaÃ§Ã£o
+deve ser acompanhado de uma frase que diga se o nÃºmero Ã©:
+. par ou Ã­mpar;
+a. positivo ou negativo;
+b. inteiro ou decimal.*/
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -6,14 +13,14 @@ public class Exer19 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		System.out.println(">>> Programa que identifica nºs (PAR/ÌMPAR) e (POSITIVO/NEGATIVO) <<< \n");
+		System.out.println(">>> Programa que identifica nÂºs (PAR/ÃŒMPAR) e (POSITIVO/NEGATIVO) <<< \n");
 		
-		System.out.println("Entre com o primeiro número:");
+		System.out.println("Entre com o primeiro nÃºmero:");
 		double n1 = ler.nextDouble();
-		System.out.println("Entre com o segundo número:");
+		System.out.println("Entre com o segundo nÃºmero:");
 		double n2 = ler.nextDouble();
 		
-		System.out.println("Qual operação desejas utilizar? (+ - * /)");
+		System.out.println("Qual operaÃ§Ã£o desejas utilizar? (+ - * /)");
 		String operacao = ler.next();
 		
 		double resultado= 0;
@@ -26,9 +33,9 @@ public class Exer19 {
 			break;
 		}
 		
-		System.out.println("NÚMERO 1: " + n1);
-		System.out.println("OPERAÇÂO: " + operacao);
-		System.out.println("NÚMERO 2: " + n2);
+		System.out.println("NÃšMERO 1: " + n1);
+		System.out.println("OPERAÃ‡Ã‚O: " + operacao);
+		System.out.println("NÃšMERO 2: " + n2);
 		System.out.println("----");
 		System.out.println("RESULTADO = " + resultado);
 		
@@ -36,7 +43,7 @@ public class Exer19 {
 		if (resultado % 2 == 0) {
 			System.out.println("RESULTADO = PAR");
 		}else {
-			System.out.println("RESULTADO = ÍMPAR");
+			System.out.println("RESULTADO = ÃMPAR");
 		}
 
 
