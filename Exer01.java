@@ -1,3 +1,5 @@
+// 1- Faça um Programa que peça dois números e imprima o maior deles.
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -18,6 +20,4 @@ public class Exer_1 {
 			System.out.println("Número 2 é maior.");
 		}
 	}
-	
-	
 }
