@@ -1,3 +1,8 @@
+/*10.Faça um Programa que pergunte em que turno você estuda. Peça
+para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a
+mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor
+Inválido!", conforme o caso.*/
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -7,7 +12,7 @@ public class Exer10 {
 	public static void main(String[] args) {
 
 		Scanner ler = new Scanner(System.in);
-		System.out.println("Entre com o turno que voc� estuda:");
+		System.out.println("Entre com o turno que você estuda:");
 		System.out.println("M - Matutino \n" + 
 						   "V - Vespertino \n" + 
 						   "N - Noturno");
@@ -20,7 +25,7 @@ public class Exer10 {
 		}else if (turno.equalsIgnoreCase("N") || turno.equalsIgnoreCase("n") ) {
 			System.out.println("Boa noite!");
 		}else {
-			System.out.println("Valor inv�lido!");
+			System.out.println("Valor inválido!");
 		}
 	*/	
 		switch (turno) {
@@ -33,7 +38,7 @@ public class Exer10 {
 		case "N":
 		case "n":System.out.println("Boa noite!"); 
 			break;
-		default:System.out.println("Valor inv�lido!");
+		default:System.out.println("Valor inválido!");
 			break;
 		}
 		
