@@ -1,3 +1,6 @@
+/* Faça um Programa que peça um número inteiro e determine se ele é
+par ou impar. Dica: utilize o operador módulo (resto da divisão).*/
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -6,15 +9,15 @@ public class Exer18 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		System.out.println("*** Programa que define numero se � (PAR/�MPAR) ***\n");
+		System.out.println("*** Programa que define numero se é (PAR/ÌMPAR) ***\n");
 		
-		System.out.println("Entre com um n�mero:");
+		System.out.println("Entre com um número:");
 		int numero = ler.nextInt();
 		 
 		if (numero % 2 == 0) {
-			System.out.println("N�mero PAR");
+			System.out.println("Número PAR");
 		}else {
-			System.out.println("N�mero �MPAR");
+			System.out.println("Número ÍMPAR");
 		}
 		
 		
