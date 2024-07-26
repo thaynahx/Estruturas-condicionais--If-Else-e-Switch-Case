@@ -1,3 +1,19 @@
+/*14- Faça um programa que lê as duas notas parciais obtidas por um aluno
+numa disciplina ao longo de um semestre, e calcule a sua média. A
+atribuição de conceitos obedece à tabela abaixo:
+
+o Média de Aproveitamento Conceito
+o Entre 9.0 e 10.0 A
+o Entre 7.5 e 9.0 B
+o Entre 6.0 e 7.5 C
+o Entre 4.0 e 6.0 D
+o Entre 4.0 e zero E
+
+O algoritmo deve mostrar na tela as notas, a média, o conceito
+correspondente e a mensagem “APROVADO” se o conceito for
+A, B ou C ou “REPROVADO” se o conceito for D ou E.*/
+
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -5,16 +21,16 @@ import java.util.Scanner;
 public class Exer14 {
 	public static void main(String[] args) {
 	Scanner ler = new Scanner(System.in);
-	System.out.println("*** Programa que calcula a m�dia de notas de um aluno ***\n");
+	System.out.println("*** Programa que calcula a média de notas de um aluno ***\n");
 	
 	String nome= "Mario";
-	System.out.println("Entre com sua 1� nota: ");
+	System.out.println("Entre com sua 1ª nota: ");
 	double n1= ler.nextDouble();
-	System.out.println("Entre com sua 2� nota: ");
+	System.out.println("Entre com sua 2ª nota: ");
 	double n2= ler.nextDouble();
-	System.out.println("Entre com sua 3� nota: ");
+	System.out.println("Entre com sua 3ª nota: ");
 	double n3= ler.nextDouble();
-	System.out.println("Entre com sua 4� nota: ");
+	System.out.println("Entre com sua 4ª nota: ");
 	double n4= ler.nextDouble();
 	
 	double soma = n1+n2+n3+n4;
@@ -40,7 +56,7 @@ public class Exer14 {
 	System.out.println("Nota 3: " + n3);
 	System.out.println("Nota 4: " + n4);
 	System.out.println("Soma das notas: " + soma);
-	System.out.println("M�dia: " + media+"\n");
+	System.out.println("Média: " + media+"\n");
 	System.out.println("Conceito: " + aproveitamento);
 	System.out.println("---------");		
 	
