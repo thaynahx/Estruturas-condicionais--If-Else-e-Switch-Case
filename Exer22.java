@@ -1,3 +1,14 @@
+/* .Uma fruteira est√° vendendo frutas com a seguinte tabela de pre√ßos:
+	At√© 5 Kg Acima de 5 Kg
+Morango R$ 2,50 por Kg R$ 2,20 por Kg
+Ma√ß√£ R$ 1,80 por Kg R$ 1,50 por Kg
+
+Se o cliente comprar mais de 8 Kg em frutas ou o valor total da
+compra ultrapassar R$ 25,00, receber√° ainda um desconto de
+10% sobre este total. Escreva um algoritmo para ler a
+quantidade (em Kg) de morangos e a quantidade (em Kg) de
+ma√ßas adquiridas e escreva o valor a ser pago pelo cliente. */
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -7,11 +18,11 @@ public class Exer22 {
 	public static void main(String[] args) {
 
 		Scanner ler = new Scanner (System.in);
-		System.out.println(" >>> Programa que caucula preÁo(kg) de frutas <<< \n");
+		System.out.println(" >>> Programa que caucula pre√ßo(kg) de frutas <<< \n");
 		
 		System.out.println("Entre com a quantidade de kilos de morangos: ");
 		double kgMorango = ler. nextDouble();
-		System.out.println("Entre com a quantidade de kilos de maÁ„: ");
+		System.out.println("Entre com a quantidade de kilos de ma√ß√£: ");
 		double kgMaca =ler.nextDouble();
 		
 		double precoKgMor=0;
@@ -24,7 +35,7 @@ public class Exer22 {
 		System.out.println("_____________________");
 		System.out.println(">>> CUPOM FISCAL <<<\n");
 		System.out.println("> Total Morango: "+totalMor);
-		System.out.println("> PreÁo do Morango: " + precoKgMor);
+		System.out.println("> Pre√ßo do Morango: " + precoKgMor);
 
 		double precoKgMaca = 0;
 		if (kgMaca <= 5) {
@@ -34,8 +45,8 @@ public class Exer22 {
 		}
 		double totalMaca = precoKgMaca * kgMaca;
 		System.out.println("|");
-		System.out.println("> Total MaÁ„: "+totalMaca);
-		System.out.println("> PreÁo do MaÁ„: " + precoKgMaca);
+		System.out.println("> Total Ma√ß√£: "+totalMaca);
+		System.out.println("> Pre√ßo do Ma√ß√£: " + precoKgMaca);
 		
 		double totalFrutasKg = kgMaca + kgMorango;
 		double totalFrutasPreco = precoKgMor + precoKgMaca;
@@ -43,7 +54,7 @@ public class Exer22 {
 		
 		System.out.println("|");
 		System.out.println("> Total de fruta(kg): " + totalFrutasKg );
-		System.out.println("> Total do (preÁo) da Fruta: " +  totalFrutasPreco);
+		System.out.println("> Total do (pre√ßo) da Fruta: " +  totalFrutasPreco);
 		System.out.println("> Valor (total) das frutas: "+ totalFrutas);
 			
 		double valorTotal = totalFrutasPreco;
