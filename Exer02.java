@@ -1,3 +1,6 @@
+/* 2- Faça um Programa que peça um valor e mostre na tela se o valor é
+positivo ou negativo.*/
+
 package Exercicio_15;
 
 import java.util.Scanner;
