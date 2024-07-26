@@ -1,6 +1,8 @@
+/*4- Faça um Programa que verifique se uma letra digitada é vogal ou
+consoante.*/
+
 package Exercicio_15;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Exer_4 {
