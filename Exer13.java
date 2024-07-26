@@ -1,3 +1,7 @@
+/*13.FaÃ§a um Programa que leia um nÃºmero e exiba o dia correspondente
+da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve
+aparecer valor invÃ¡lido.*/
+
 package Exercicio_15;
 
 import java.util.Scanner;
@@ -8,20 +12,21 @@ public class Exer13 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Entre com um número que corresponde ao dia da semana: ");
+		System.out.println("Entre com um nÃºmero que corresponde ao dia da semana: ");
 		int diaSemana = scan.nextInt();
 		System.out.println("--------");
 		switch (diaSemana) {
 		case 1: System.out.println(diaSemana+ "- Domingo");  break;
-		case 2: System.out.println(diaSemana+ "ª- Segunda-feira");  break;
-		case 3: System.out.println(diaSemana+ "ª- Terça-feira");  break;
-		case 4: System.out.println(diaSemana+ "ª- Quarta-feira");  break;
-		case 5: System.out.println(diaSemana+ "ª- Quinta-feira");  break;
-		case 6: System.out.println(diaSemana+ "ª- Sexta-feira");  break;
-		case 7: System.out.println(diaSemana+ "- Sábado");  break;
-		default:System.out.println("Valor inválido, digite novamente!");
+		case 2: System.out.println(diaSemana+ "Âª- Segunda-feira");  break;
+		case 3: System.out.println(diaSemana+ "Âª- TerÃ§a-feira");  break;
+		case 4: System.out.println(diaSemana+ "Âª- Quarta-feira");  break;
+		case 5: System.out.println(diaSemana+ "Âª- Quinta-feira");  break;
+		case 6: System.out.println(diaSemana+ "Âª- Sexta-feira");  break;
+		case 7: System.out.println(diaSemana+ "- SÃ¡bado");  break;
+		default:System.out.println("Valor invÃ¡lido, digite novamente!");
 			break;
 		}
+
 		
 		
 		
